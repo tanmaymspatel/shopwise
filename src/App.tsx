@@ -1,10 +1,10 @@
-import Footer from "./core/components/Footer";
-import Header from "./core/components/Header";
+import Footer from "./core/components/footer/Footer";
+import Header from "./core/components/header/Header";
 import Home from "./pages/home/Home";
 
 function App() {
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-screen w-screen flex flex-col">
       <Header />
       <div className="flex-grow bg-slate-500">
         <Home />
