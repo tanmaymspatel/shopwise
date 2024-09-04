@@ -26,10 +26,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-slate-900 text-white py-4">
+      <footer className="bg-slate-900 text-white py-4 ">
         <div className="container mx-auto py-8">
-          <div className="flex items-center  justify-between ">
-            <div className="flex flex-col gap-6 w-[20%]">
+          <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-6 ">
               <figure>
                 <img
                   src="https://shopwise-demo.myshopify.com/cdn/shop/files/logo_light_393783f2-8356-4605-8bea-4f335efde538.png"

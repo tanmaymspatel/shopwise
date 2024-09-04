@@ -6,4 +6,23 @@
     .nav-link{
         @apply border-b-2 transition-all border-transparent  text-sm hover:border-red-500 hover:text-red-500 
     }
+
+    .hero-slider-image{
+        @apply bg-no-repeat bg-center bg-cover h-[500px] w-[100%]
+    }
+    .section{
+        @apply py-8
+    }
 }
+.swiper-button-next, .swiper-button-prev {
+    background-color: #ff0000; /* Change background color */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 50%; /* Make them circular */
+  }
+  
+
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 24px; /* Change arrow size */
+    color: #ffffff; /* Change arrow color */
+  }
